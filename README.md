@@ -2,16 +2,19 @@
 
 ## Overview of Analysis
 
-The purpose for this analysis was to find the temperatures for the months of June and December and summarize the statistics using a combination of the pandas and SQLAlchemy library in Python. The queries to find this information is located in the [SurfsUp_Challenge]() file. Results and examples will be explained below.
+The purpose for this analysis was to find the temperatures for the months of June and December and summarize the statistics using a combination of the pandas and SQLAlchemy library in Python. The queries to find this information is located in the [SurfsUp_Challenge](https://github.com/stwpf01/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb) file. Results and examples will be explained below.
+
+
 ## Results
 
-Starting with images displaying the summanations of temperatures for each month:
+### Images
 
-![June]()
+![June](https://github.com/stwpf01/Surfs_Up/blob/main/Resources/June.png)
 
 
-![December]()
+![December](https://github.com/stwpf01/Surfs_Up/blob/main/Resources/December.png)
 
+### Points and Code Example
 
 - The temperatures for June and December were fairly comparable. Not an extreme difference. 
 - December is, unsurprisingly, colder than June, but even December's coldest day is close to June's coldest.   
