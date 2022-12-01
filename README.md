@@ -24,7 +24,7 @@ To filter through the data to only gather the temperatures for these months, the
 
 `june = session.query(Measurement.tobs).filter(extract("month", Measurement.date) == 6).all()`
 
-A variable (`june` and/or `dec`) was created to equal a query in the Measurement table for the observed temperature (`tobs`) column. This was then filtered and extracted using the `.filte()` and `extract()` functions, where the month of the data column in the Measurement table equaled 6 or 12 for June and December, respectively.  
+A variable (`june` and/or `dec`) was created to equal a query in the Measurement table for the observed temperature (`tobs`) column. This was then filtered and extracted using the `.filter()` and `extract()` functions, where the month of the data column in the Measurement table equaled 6 or 12 for June and December, respectively.  
 
 ## Summary
 
